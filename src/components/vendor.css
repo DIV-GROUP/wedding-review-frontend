@@ -1,0 +1,45 @@
+#vendorsHeader{
+    /* position: relative; */
+    height: 257px;
+    /* top: 212px; */
+    background: rgba(0, 0, 0, 0.95);
+    color:#FFFFFF;
+    text-transform: uppercase;
+}
+
+#vendorsHeader h1{   
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+width: 370px;
+/* height: 35px; */
+margin: 0 auto;
+padding-top: 60px;
+}
+
+#vendorsHeader h1 .span1{
+    margin-right: 20px;
+}
+
+#vendorsHeader h1 .span2{
+    margin-left: 20px;
+}
+
+#vendorsHeader h2{
+font-style: italic;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+letter-spacing: 0.1em;
+width: 540px;
+margin: 0 auto;
+padding-top: 15px;
+}
+.vendorsSection h4{
+    color:#A05337;
+font-style: italic;
+font-weight: 400;
+font-size:20px;
+line-height: 48px;
+letter-spacing: 0.02em;
+}
