@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Assistant:wght@200&family=Corinthia:wght@700&family=Cormorant+Garamond:wght@300&family=Kalam:wght@300&family=Oswald:wght@200&family=Poppins&family=Tajawal:wght@200;300;400&display=swap');
+
+
+.dark-background{
+    background-color: black;
+    height: 12rem;
+    width: 100%;
+    color: white;
+    font-family: "Oswald";
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.dark-background hr{
+    width: 50%;
+    border: 1px solid white;
+    
+    
+}
+
+.photo-head{
+    font-family: "Oswald";
+    color: #a44c2c;
+    margin-left: 2rem;
+    margin-top: 2rem ;
+}
+
+.card-top{
+    margin-top: 3rem;
+}
+
+.card-top1{
+    margin-top: 5rem;
+}
+
+h5{
+    font-family: "Oswald";
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-weight: bolder;
+}
+
+.side-button{
+    margin-top: 10rem;
+}
