@@ -5,6 +5,7 @@ import './App.css';
 import Makeup from './components/makeup';
 // import Photo from './components/photo';
 import Cake from './components/cake';
+import Fashion from './components/fashion';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <Catering /> */}
       {/* <Flower /> */}
       {/* <Makeup /> */}
-      <Cake />
+      {/* <Cake /> */}
+      <Fashion />
     </div>
   );
 }
