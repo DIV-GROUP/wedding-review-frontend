@@ -34,7 +34,7 @@ export default function Flower() {
 
                         <Col>
                             <Card style={{ width: '20rem' }}>
-                                <Card.Img variant="top" src={Image1} style={{ height: "15rem", objectFit: "cover", objectPosition: "50% 50%" }} />
+                                <Card.Img variant="top" src={Image1} style={{ height: "400px", objectFit: "cover", objectPosition: "50% 50%" }} />
                                 <Card.Body>
                                     <Card.Title>
                                         <h5>FLICK PHOTO STUDIOS</h5>
@@ -56,7 +56,7 @@ export default function Flower() {
 
                         <Col>
                             <Card style={{ width: '20rem' }}>
-                                <Card.Img variant="top" src={Image2} style={{ height: "15rem", objectFit: "cover", objectPosition: "50% 50%" }} />
+                                <Card.Img variant="top" src={Image2} style={{ height: "400px", objectFit: "cover", objectPosition: "50% 50%" }} />
                                 <Card.Body>
                                     <Card.Title>
                                         <h5>ANGELS PHOTOGRAPHY</h5>
@@ -78,7 +78,7 @@ export default function Flower() {
 
                         <Col>
                             <Card style={{ width: '20rem' }}>
-                                <Card.Img variant="top" src={Image3} style={{ height: "15rem", objectFit: "cover", objectPosition: "50% 50%" }} />
+                                <Card.Img variant="top" src={Image3} style={{ height: "400px", objectFit: "cover", objectPosition: "50% 50%" }} />
                                 <Card.Body>
                                     <Card.Title>
                                         <h5>BEAUTY AND CLASS VIDEOGRAPHY</h5>
@@ -107,7 +107,7 @@ export default function Flower() {
 
                         <Col>
                             <Card style={{ width: '20rem' }}>
-                                <Card.Img variant="top" src={Image4} style={{ height: "15rem", objectFit: "cover", objectPosition: "50% 50%" }} />
+                                <Card.Img variant="top" src={Image4} style={{ height: "400px", objectFit: "cover", objectPosition: "50% 50%" }} />
                                 <Card.Body>
                                     <Card.Title>
                                         <h5>FOREVER PHOTOGRAPHY</h5>
@@ -129,7 +129,7 @@ export default function Flower() {
 
                         <Col>
                             <Card style={{ width: '20rem' }}>
-                                <Card.Img variant="top" src={Image5} style={{ height: "15rem", objectFit: "cover", objectPosition: "50% 50%" }} />
+                                <Card.Img variant="top" src={Image5} style={{ height: "400px", objectFit: "cover", objectPosition: "50% 50%" }} />
                                 <Card.Body>
                                     <Card.Title>
                                         <h5>PERFECT STUDIOS</h5>
@@ -151,7 +151,7 @@ export default function Flower() {
 
                         <Col>
                             <Card style={{ width: '20rem' }}>
-                                <Card.Img variant="top" src={Image6} style={{ height: "15rem", objectFit: "cover", objectPosition: "50% 50%" }} />
+                                <Card.Img variant="top" src={Image6} style={{ height: "400px", objectFit: "cover", objectPosition: "50% 50%" }} />
                                 <Card.Body>
                                     <Card.Title>
                                         <h5>WIDE AWAKE PICTURES</h5>

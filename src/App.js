@@ -1,11 +1,13 @@
 
 import './App.css';
-// import Catering from './components/catering';
-// import Flower from './components/flower';
+import Catering from './components/catering';
+import Flower from './components/flower';
 import Makeup from './components/makeup';
-// import Photo from './components/photo';
+import Photo from './components/photo';
 import Cake from './components/cake';
-import Fashion from './components/fashion';
+import Bridal from './components/bridal';
+import Fancy from './components/fancy';
+// import Fashion from './components/fashion';
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
       {/* <Flower /> */}
       {/* <Makeup /> */}
       {/* <Cake /> */}
-      <Fashion />
+      {/* <Fashion /> */}
+      {/* <Bridal /> */}
+      <Fancy />
     </div>
   );
 }

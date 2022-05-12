@@ -1,12 +1,12 @@
 import React from 'react'
 import './photo.css';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
-import Image1 from '../images/fash1.jpg';
-import Image2 from '../images/fash2.jpg';
-import Image3 from '../images/fash3.jpg';
-import Image4 from '../images/fash4.jpg';
-import Image5 from '../images/fash5.jpg';
-import Image6 from '../images/make6.jpg';
+import Image1 from '../images/pics1.jpg';
+import Image2 from '../images/pics2.jpg';
+import Image3 from '../images/pics3.jpg';
+import Image4 from '../images/pics4.jpg';
+import Image5 from '../images/pics5.jpg';
+import Image6 from '../images/pics6.jpg';
 
 
 
@@ -14,22 +14,23 @@ import Image6 from '../images/make6.jpg';
 
 
 
-export default function Fashion() {
+export default function Bar() {
     return (
         <div>
+
             <Container fluid >
                 <Row>
                     <Col className="dark-background">
                         <div>
-                            <h6><hr />BRIDAL AND GROOM WEAR<hr /></h6>
-                            <h2>FASHION</h2>
+                            <h6><hr />TASTY FRESH LOCAL DRINKS<hr /></h6>
+                            <h2>LOCAL BARS</h2>
 
                         </div>
 
                     </Col>
                 </Row>
             </Container>
-            <div className='photo-head'><h2>FASHION</h2></div>
+            <div className='photo-head'><h2>LOCAL BAR VENDORS</h2></div>
 
             <div className='card-top1'>
                 <Container >
