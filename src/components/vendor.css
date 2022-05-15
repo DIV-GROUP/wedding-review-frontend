@@ -73,10 +73,85 @@ font-size: 17px;
 .ourwork{
     text-align: center;
     font-weight: 500;
+    color: #A05337;
 }
 .hrspan1{ 
     border: 1px solid #A05337;
     margin-right: 15rem;
+    margin-bottom: 5rem;
+}
+.customImg1{
+    width: 241px;
+height: 260px;
+filter:  drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.customImg{
+
+width: 231px;
+height: 163px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+.card{
+    border: none;
+}
+
+#customPre{
+    position: relative;
+}
+#customPre > button {
+    margin-left: -8rem;
+}
+#customPre .custom-btn{
+    margin-right: -7rem;
+}
+
+#customPre span {
+    color:#A05337;
+    font-size: 40px;
+    position: absolute;
+    top: -13rem;
+}
+#outlines{
+    color: #A05337;    
+    border-color: #A05337;
+    border-radius: 0;
+font-style: italic;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+
+letter-spacing: 0.02em;
+
+
+}
+
+#outlines:hover{
+    color: #FFFFFF;
+    background-color: #A05337;
+    box-shadow: none;
+    /* background: none; */
+}
+.review h3{
+font-size: 36px;
+font-style: italic;
+font-weight: 700;
+line-height: 43px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #000000;
+}
+.review{
+    margin-top: 6rem;
+}
+.experience{
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: 0.03em;
+color: #000000;
 }
 footer{
 background-color: #51504B;
@@ -84,4 +159,24 @@ background-color: #51504B;
 }
 footer>div{
     text-align: center;
+font-style: italic;
+font-weight: 300;
+font-size: 20px;
+line-height: 38px;
+
+color: #FFFFFF;
+}
+.customParagraphy{
+    font-style: italic;
+font-weight: 400;
+font-size: 16px;
+line-height: 29px;
+letter-spacing: 0.02em;
+color:#000000;
+margin: 15px 0;
+}
+.review hr{
+    color: #A05337;
+    height: 2px;
+    opacity: 1;
 }
