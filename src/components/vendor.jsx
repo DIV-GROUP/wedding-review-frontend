@@ -1,5 +1,7 @@
 import "./vendor.css"; // css
 
+import VendorHeader from "./vendorHeader";
+
 import Picc6 from "../images/picc6.jpg"; //bride image
 import Photos2 from "../images/photos2.jpg"; //photos2 image
 import Picc2 from "../images/picc2.jpg"; //picc2 image
@@ -18,14 +20,7 @@ import { Container, Row, Col, Card, CardGroup } from "react-bootstrap";
 function vendorPage() {
   return (
     <>
-      <Container fluid id="vendorsHeader" className="p-3 mb-3">
-        <h1>
-          <span className="span1">&#8212;&#8212;&#8212;</span>
-          Capture the sweet moments
-          <span className="span2">&#8212;&#8212;&#8212;</span>
-        </h1>
-        <h2 className="pt-3">photography</h2>
-      </Container>
+     <VendorHeader/>
 
       <section className="vendorsSection">
         <h4 className="mb-3  ms-5">
