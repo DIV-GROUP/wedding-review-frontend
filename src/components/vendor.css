@@ -98,6 +98,7 @@ body {
   font-size: 20px;
   line-height: 29px;
   letter-spacing: 0.02em;
+  box-shadow: none;
 }
 
 #outlines:hover {
