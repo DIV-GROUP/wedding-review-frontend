@@ -1,27 +1,34 @@
 import "./vendor.css"; // css
 
+// importation of the vendor header component
 import VendorHeader from "./vendorHeader";
 
-import Picc6 from "../images/picc6.jpg"; //bride image
-import Photos2 from "../images/photos2.jpg"; //photos2 image
-import Picc2 from "../images/picc2.jpg"; //picc2 image
-import Picc3 from "../images/picc3.jpg"; //picc3 image
+// importation of images
+import Picc6 from "../images/picc6.jpg";
+import Photos2 from "../images/photos2.jpg"; 
+import Picc2 from "../images/picc2.jpg"; 
+import Picc3 from "../images/picc3.jpg"; 
 import Picc5 from "../images/picc5.jpg";
-import Picc4 from "../images/picc4.jpg"; //picc4 image
+import Picc4 from "../images/picc4.jpg"; 
 
-import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
+// importation of icons 
+import { BsArrowLeft, BsArrowRight } from "react-icons/bs"; //arrows icons from bootstrap
 
-import { BsTelephone, BsGlobe } from "react-icons/bs"; //icons for globe and call
+import { BsTelephone, BsGlobe } from "react-icons/bs"; //icons for globe and call from bootstrap
 
 import { FaRegEnvelope } from "react-icons/fa"; //icons for email
 
+// importation of react-bootstrap components 
 import { Container, Row, Col, Card, CardGroup } from "react-bootstrap";
 
 function vendorPage() {
+
   return (
     <>
-     <VendorHeader/>
+      {/* header */}
+     <VendorHeader/> 
 
+      {/* flick photos section  */}
       <section className="vendorsSection">
         <h4 className="mb-3  ms-5">
           <span className="me-4 pb-2"></span>FLICK PHOTO STUDIOS
@@ -32,10 +39,10 @@ function vendorPage() {
             <Row>
               <Col>
                 <Card>
-                  <Card.Img
+                  <Card.Img 
                     variant="top"
                     src={Picc3}
-                    alt="bride"
+                    alt="bride_photo"
                     style={{ height: "26rem" }}
                   />
                 </Card>
@@ -53,7 +60,7 @@ function vendorPage() {
                 <div className="me-5 mb-3 custom">
                   <i>
                     <BsTelephone className="me-2" />
-                  </i>{" "}
+                  </i>
                   +233 445 6789
                 </div>
                 <div>
@@ -73,6 +80,8 @@ function vendorPage() {
           <div className="hrspan1 mt-3"></div>
         </div>
       </section>
+
+      {/* carousel section */}
       <Container>
         <div
           id="carouselExampleControlsNoTouching"
@@ -87,7 +96,7 @@ function vendorPage() {
                   <Card.Img
                     variant="top"
                     src={Picc4}
-                    alt=""
+                    alt="bridal_photos"
                     className="customImg1"
                   />
                 </Card>
@@ -96,7 +105,7 @@ function vendorPage() {
                   <Card.Img
                     variant="top"
                     src={Picc5}
-                    alt=""
+                    alt="bridal_photos"
                     className="customImg"
                   />
                 </Card>
@@ -105,7 +114,7 @@ function vendorPage() {
                   <Card.Img
                     variant="top"
                     src={Photos2}
-                    alt=""
+                    alt="bridal photos"
                     className="customImg"
                   />
                 </Card>
@@ -114,7 +123,7 @@ function vendorPage() {
                   <Card.Img
                     variant="top"
                     src={Picc2}
-                    alt=""
+                    alt="bridal_photos"
                     className="customImg"
                   />
                 </Card>
@@ -127,7 +136,7 @@ function vendorPage() {
                   <Card.Img
                     variant="top"
                     src={Picc2}
-                    alt=""
+                    alt="bridal_photos"
                     className="customImg1"
                   />
                 </Card>
@@ -136,7 +145,7 @@ function vendorPage() {
                   <Card.Img
                     variant="top"
                     src={Picc2}
-                    alt=""
+                    alt="bridal photos"
                     className="customImg"
                   />
                 </Card>
@@ -145,7 +154,7 @@ function vendorPage() {
                   <Card.Img
                     variant="top"
                     src={Picc2}
-                    alt=""
+                    alt="bridal_photos"
                     className="customImg"
                   />
                 </Card>
@@ -154,7 +163,7 @@ function vendorPage() {
                   <Card.Img
                     variant="top"
                     src={Picc2}
-                    alt=""
+                    alt="bridal_photos"
                     className="customImg"
                   />
                 </Card>
@@ -167,7 +176,7 @@ function vendorPage() {
                   <Card.Img
                     variant="top"
                     src={Picc4}
-                    alt=""
+                    alt="bridal_photos"
                     className="customImg1"
                   />
                 </Card>
@@ -176,7 +185,7 @@ function vendorPage() {
                   <Card.Img
                     variant="top"
                     src={Picc6}
-                    alt=""
+                    alt="bridal_photos"
                     className="customImg"
                   />
                 </Card>
@@ -185,7 +194,7 @@ function vendorPage() {
                   <Card.Img
                     variant="top"
                     src={Picc4}
-                    alt=""
+                    alt="bridal photos"
                     className="customImg"
                   />
                 </Card>
@@ -194,7 +203,7 @@ function vendorPage() {
                   <Card.Img
                     variant="top"
                     src={Picc2}
-                    alt=""
+                    alt="bridal_photos"
                     className="customImg"
                   />
                 </Card>
@@ -203,6 +212,7 @@ function vendorPage() {
           </div>
         </div>
 
+        {/* carousel left and right arrows */}
         <div id="customPre">
           <button
             className="carousel-control-prev"
@@ -210,7 +220,8 @@ function vendorPage() {
             data-bs-target="#carouselExampleControlsNoTouching"
             data-bs-slide="prev"
           >
-            <span className="fw-bolder">
+            {/* arrow left icon */}
+            <span>
               <BsArrowLeft />
             </span>
           </button>
@@ -221,6 +232,7 @@ function vendorPage() {
             data-bs-target="#carouselExampleControlsNoTouching"
             data-bs-slide="next"
           >
+            {/* arrow right icon */}
             <span>
               <BsArrowRight />
             </span>
@@ -228,6 +240,7 @@ function vendorPage() {
         </div>
       </Container>
 
+        {/* reviews section start here  */}
       <Container fluid className="review p-0 ">
         <div className="ms-5 mb-5">
           <h3 className="ms-4">Reviews</h3>
@@ -259,12 +272,15 @@ function vendorPage() {
         </p>
         <hr className="mb-4"/>
       </Container>
+      {/* review section ends here  */}
 
+        {/* footer section start here  */}
       <Container fluid className="p-0">
         <footer className="p-3">
           <div>2022</div>
         </footer>
       </Container>
+      {/* footer ends ends here  */}
     </>
   );
 }
