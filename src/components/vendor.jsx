@@ -1,4 +1,6 @@
 import "./vendor.css"; // css
+// importation of the vendor navbar component
+import GeneralNavBar from "./generalNavBar";
 
 // importation of the vendor header component
 import VendorHeader from "./vendorHeader";
@@ -25,6 +27,10 @@ function vendorPage() {
 
   return (
     <>
+    
+      {/* navbar */}
+      <GeneralNavBar/>
+      
       {/* header */}
      <VendorHeader/> 
 
