@@ -7,19 +7,21 @@ import Photo from './components/photo';
 import Cake from './components/cake';
 import Bridal from './components/bridal';
 import Fancy from './components/fancy';
-// import Fashion from './components/fashion';
+import Fashion from './components/fashion';
+import Rings from './components/rings';
 
 function App() {
   return (
     <div>
       {/* <Photo /> */}
       {/* <Catering /> */}
-      {/* <Flower /> */}
+      <Flower />
       {/* <Makeup /> */}
       {/* <Cake /> */}
       {/* <Fashion /> */}
       {/* <Bridal /> */}
-      <Fancy />
+      {/* <Rings /> */}
+      {/* <Fancy /> */}
     </div>
   );
 }
