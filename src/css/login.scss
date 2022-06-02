@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-form{
+
+    display:flex;
+    justify-content: center;
+    background: #FFFFFF;
+  
+    form{
+        margin-top: 6%;
+        width: 577px;
+        height: 500px;
+        box-shadow: 0px 0px 1px 1px rgb(75, 72, 72);
+        padding: 4em;
+       
+        h1{
+            font-family: 'Castoro';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 30px;
+            text-align: center;
+            color: #000000;
+            
+        }
+
+        input[name="le"]{
+            border: none;
+            border-bottom: solid rgba(160, 83, 55, 1);
+            margin: 3em;
+            width: 80%;
+            height: 23px;
+            font-family: 'Castoro';
+            font-style: italic;
+            font-size: 18px;
+        }
+
+        input[name="lp"]{
+            border: none;
+            border-bottom: solid rgba(160, 83, 55, 1);
+            margin: 3em;
+            margin-top: 1%;
+            width: 80%;
+            height: 23px;
+            font-family: 'Castoro';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 18px;
+        }
+        h2{
+            text-align: center;
+            margin-bottom: 30px;
+            font-family: 'Castoro';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            color: #000000;
+            a{
+                text-decoration: none;
+                color: rgb(126, 60, 27);
+            }
+        }
+
+        button[name="btn"]{
+            // position: absolute;
+            width: 300px;
+            height: 44px;
+            font-family: 'Castoro';
+            font-style: italic;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            color: #FFFFFF;
+            background: #A05337;
+            margin-left: 19%;
+            // padding: 10px;
+            border: none; 
+            // box-shadow: 0px 0px 1px 1px rgb(75, 72, 72);
+            // background-color: rgb(126, 60, 27);
+            // color: white;
+        }
+        h3{
+            text-align: center;
+            margin-top: 30px;
+            font-family: 'Castoro';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            color: #000000;
+            a{
+                text-decoration: none;
+                color: rgb(126, 60, 27);
+            }
+        }
+        
+               
+        
+          
+           
+        
+    }
+  
+}
+
+// We define the mixins for two major breakpoints mobile and tablet
+ 
+ // $breakpoint is the variable that can have several values
+ @mixin devices ($breakpoint) { //the name of the mixin is devices
+  
+    @if $breakpoint == tablet {    
+    @media only screen and (max-width: 680px) {
+      @content;
+    }
+  }
+ 
+  @if $breakpoint == mobile {
+    @media only screen and (max-width: 481px) {
+      @content;
+    }
+  }
+}
