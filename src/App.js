@@ -14,8 +14,10 @@ import Fashion from './components/fashion';
 import Rings from './components/rings';
 import Bar from './components/bar';
 import VendorsPage from './components/vendor';
-import Login from './Pages/login';
+// import Login from './Pages/login';
 import Signup from './Pages/signup';
+import Login from './Pages/login';
+
 
 
 function App() {
