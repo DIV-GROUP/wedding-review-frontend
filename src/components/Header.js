@@ -47,10 +47,10 @@ export default function Header() {
               </Nav>
 
               <Form className="d-flex">
-                <Nav.Link className=" text-dark" href="#">
+                <Nav.Link className=" text-dark" href="/login">
                   Login
                 </Nav.Link>
-                <Nav.Link className=" bg-danger text-white" href="#"  >
+                <Nav.Link className=" bg-danger text-white" href="/signup"  >
                   Sign Up
                 </Nav.Link>
               </Form>
