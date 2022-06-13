@@ -2,6 +2,8 @@ import "./vendor.css"; // css
 // importation of the vendor navbar component
 import GeneralNavBar from "./generalNavBar";
 
+//importing the review form
+import ReviewForm from "./reviewform";
 // importation of the vendor header component
 import VendorHeader from "./vendorHeader";
 
@@ -258,8 +260,10 @@ function vendorPage() {
             className="btn btn-outline-dark mt-3 ms-4 mb-3 ps-3 pe-3"
             id="outlines"
           >
-            Leave a review
+            {/* Leave a review */}
+            <ReviewForm/>
           </button>
+          
         </div>
         <hr />
         
