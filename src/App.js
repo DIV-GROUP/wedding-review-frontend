@@ -15,8 +15,8 @@ function App() {
     <div>
       {/* <Photo /> */}
       {/* <Catering /> */}
-      <Flower />
-      {/* <Makeup /> */}
+      {/* <Flower /> */}
+      <Makeup />
       {/* <Cake /> */}
       {/* <Fashion /> */}
       {/* <Bridal /> */}
