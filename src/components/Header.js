@@ -7,7 +7,7 @@ export default function Header() {
       <div>
         <Navbar>
           <Container>
-            <Navbar.Brand className="m-auto" href="#home">
+            <Navbar.Brand className="m-auto" href="/">
               toForever
             </Navbar.Brand>
           </Container>
@@ -22,15 +22,22 @@ export default function Header() {
                 style={{ maxHeight: "100px" }}
                 navbarScroll
               >
-                <Nav.Link href="#action1" className=" text-danger">
+                <Nav.Link href="/" className=" text-danger">
                   Home
                 </Nav.Link>
-                <Nav.Link href="#action2"> About Us</Nav.Link>
+                <Nav.Link href="/"> About Us</Nav.Link>
                 <NavDropdown title="Vendors" id="navbarScrollingDropdown">
-                  <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                  <NavDropdown.Item href="#action4">
-                    Another action
-                  </NavDropdown.Item>
+                  
+                  <NavDropdown.Item href="/makeup">  Makeup</NavDropdown.Item>
+                  <NavDropdown.Item href="/catering">Catering</NavDropdown.Item>
+                  <NavDropdown.Item href="/cake"> Cake</NavDropdown.Item>
+                  <NavDropdown.Item href="/photo">Photography</NavDropdown.Item>
+                  <NavDropdown.Item href="/fashion"> Fashion</NavDropdown.Item>
+                  <NavDropdown.Item href="/bridal">Bridal</NavDropdown.Item>
+                  <NavDropdown.Item href="/rings"> Accessories</NavDropdown.Item>
+                  <NavDropdown.Item href="/flower">Flowers</NavDropdown.Item>
+                  <NavDropdown.Item href="/fancy"> Fancy</NavDropdown.Item>
+                  <NavDropdown.Item href="/bar">Bar</NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item href="#action5">
                     Something else here
