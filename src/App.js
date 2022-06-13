@@ -16,8 +16,6 @@ import Bar from './components/bar';
 import VendorsPage from './components/vendor';
 import Login from './components/login';
 import Signup from './components/signup';
-// import Signup from './Pages/signup';
-// import Login from './Pages/login';
 
 
 
