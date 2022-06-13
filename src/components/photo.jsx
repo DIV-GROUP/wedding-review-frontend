@@ -8,6 +8,7 @@ import Image4 from '../images/picc4.jpg';
 import Image5 from '../images/picc5.jpg';
 import Image6 from '../images/picc6.jpg';
 import Header from './Header';
+import vendorPage from './vendor';
 
 
 
@@ -36,6 +37,7 @@ export default function Photo() {
 
                         <Col>
                             <Card style={{ width: '20rem' }}>
+                                <a href='/vendor'>
                                 <Card.Img variant="top" src={Image1} style={{ height: "400px", objectFit: "cover", objectPosition: "50% 50%" }} />
                                 <Card.Body>
                                     <Card.Title>
@@ -51,9 +53,9 @@ export default function Photo() {
                                         </div>      
                                     </Card.Text>
                                 </Card.Body>
-
+                                </a>
                             </Card>
-
+                            
                         </Col>
 
                         <Col>

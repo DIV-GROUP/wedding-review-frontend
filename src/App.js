@@ -13,9 +13,7 @@ import Fancy from './components/fancy';
 import Fashion from './components/fashion';
 import Rings from './components/rings';
 import Bar from './components/bar';
-
-
-
+import VendorsPage from './components/vendor';
 
 function App() {
   return (
@@ -33,6 +31,7 @@ function App() {
         <Route path='/catering' element={<Catering/>}></Route>
         <Route path='/flower' element={<Flower/>}></Route>
         <Route path='/bar' element={<Bar/>}></Route>
+        <Route path='/vendor' element={<VendorsPage/>}></Route>
         
       </Routes>
       
@@ -42,6 +41,7 @@ function App() {
 
 );
 
+  
 }
 
 
