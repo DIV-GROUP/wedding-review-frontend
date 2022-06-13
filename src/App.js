@@ -14,9 +14,10 @@ import Fashion from './components/fashion';
 import Rings from './components/rings';
 import Bar from './components/bar';
 import VendorsPage from './components/vendor';
+
+// import Signup from './Pages/signup';
 // import Login from './Pages/login';
-import Signup from './Pages/signup';
-import Login from './Pages/login';
+
 
 
 
@@ -37,8 +38,8 @@ function App() {
         <Route path='/flower' element={<Flower/>}></Route>
         <Route path='/bar' element={<Bar/>}></Route>
         <Route path='/vendor' element={<VendorsPage/>}></Route>
-        <Route path='/login' element={<Login/>}></Route>
-        <Route path='/signup' element={<Signup/>}></Route>
+        {/* <Route path='/login' element={<Login/>}></Route>
+        <Route path='/signup' element={<Signup/>}></Route> */}
 
       </Routes>
       
