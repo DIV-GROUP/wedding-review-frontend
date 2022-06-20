@@ -104,6 +104,7 @@ function vendorPage() {
                     src={Picc4}
                     alt="bridal_photos"
                     className="customImg1"
+                    loading="lazy"
                   />
                 </Card>
 
@@ -113,6 +114,8 @@ function vendorPage() {
                     src={Picc5}
                     alt="bridal_photos"
                     className="customImg"
+                    loading="lazy"
+
                   />
                 </Card>
 
@@ -122,6 +125,8 @@ function vendorPage() {
                     src={Photos2}
                     alt="bridal photos"
                     className="customImg"
+                    loading="lazy"
+
                   />
                 </Card>
 
@@ -131,6 +136,8 @@ function vendorPage() {
                     src={Picc2}
                     alt="bridal_photos"
                     className="customImg"
+                    loading="lazy"
+
                   />
                 </Card>
               </CardGroup>
@@ -144,6 +151,8 @@ function vendorPage() {
                     src={Picc2}
                     alt="bridal_photos"
                     className="customImg1"
+                    loading="lazy"
+
                   />
                 </Card>
 
@@ -153,6 +162,8 @@ function vendorPage() {
                     src={Picc2}
                     alt="bridal photos"
                     className="customImg"
+                    loading="lazy"
+
                   />
                 </Card>
 
@@ -162,6 +173,8 @@ function vendorPage() {
                     src={Picc2}
                     alt="bridal_photos"
                     className="customImg"
+                    loading="lazy"
+
                   />
                 </Card>
 
@@ -171,6 +184,8 @@ function vendorPage() {
                     src={Picc2}
                     alt="bridal_photos"
                     className="customImg"
+                    loading="lazy"
+
                   />
                 </Card>
               </CardGroup>
@@ -184,6 +199,8 @@ function vendorPage() {
                     src={Picc4}
                     alt="bridal_photos"
                     className="customImg1"
+                    loading="lazy"
+
                   />
                 </Card>
 
@@ -193,6 +210,8 @@ function vendorPage() {
                     src={Picc6}
                     alt="bridal_photos"
                     className="customImg"
+                    loading="lazy"
+
                   />
                 </Card>
 
@@ -202,6 +221,8 @@ function vendorPage() {
                     src={Picc4}
                     alt="bridal photos"
                     className="customImg"
+                    loading="lazy"
+
                   />
                 </Card>
 
@@ -211,6 +232,8 @@ function vendorPage() {
                     src={Picc2}
                     alt="bridal_photos"
                     className="customImg"
+                    loading="lazy"
+
                   />
                 </Card>
               </CardGroup>
